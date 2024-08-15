@@ -1,0 +1,50 @@
+.container{
+  max-width: 500px;
+  margin:50px auto;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 20px;
+  min-height: 400px;
+}
+.form{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+
+  .form-container{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    *{
+      min-height: 30px;
+    }
+  }
+}
+.task-item{
+  display: flex;
+  gap: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+}
+.task-done{
+  background-color: #458c57;
+}
+.task{
+  background-color: #45648c;
+}
+.tasks{
+  margin-top: 20px;
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+}
+.text-center{
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}
